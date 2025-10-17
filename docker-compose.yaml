@@ -1,7 +1,5 @@
 version: '3.8'
 
-name: bioskop
-
 services:
 
   mysql:
@@ -30,24 +28,19 @@ services:
       - .env-wordpress
     restart: always
     depends_on:
-      mysql:
-        condition: service_healthy
+      - mysql
     ports:
       - "8080:80"
     volumes:
       - ./wordpress:/var/www/html
     networks:
       - bioskop
-    deploy:
-      labels:
-        com.example.description: "A&M Cinema"
 
   phpmyadmin:
     image: phpmyadmin:latest
     container_name: phpmyadmin
     depends_on:
-      mysql:
-        condition: service_healthy
+      - mysql
     env_file:
       - .env-phpmyadmin
     restart: always
