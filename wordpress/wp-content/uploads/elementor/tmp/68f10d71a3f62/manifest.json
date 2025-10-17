@@ -1,0 +1,201 @@
+{
+  "name": "kit",
+  "title": "kit",
+  "description": "",
+  "author": "Mati",
+  "version": "2.0",
+  "elementor_version": "3.30.2",
+  "created": "2025-10-16 15:11:10",
+  "thumbnail": false,
+  "site": "https://qdpenjjp.elementor.cloud",
+  "site-settings": [
+    "global-colors",
+    "global-typography",
+    "theme-style-typography",
+    "theme-style-buttons",
+    "theme-style-images",
+    "theme-style-form-fields",
+    "settings-background",
+    "settings-layout",
+    "settings-lightbox",
+    "settings-page-transitions",
+    "settings-custom-css",
+    "settings-woocommerce"
+  ],
+  "plugins": [
+    {
+      "name": "Elementor",
+      "plugin": "elementor/elementor.php",
+      "pluginUri": "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+      "version": "3.30.2"
+    },
+    {
+      "name": "Elementor Pro",
+      "plugin": "elementor-pro/elementor-pro.php",
+      "pluginUri": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/",
+      "version": "3.30.0"
+    }
+  ],
+  "templates": {
+    "1245077": {
+      "title": "Header",
+      "doc_type": "header",
+      "thumbnail": false,
+      "location": "header",
+      "conditions": [
+        {
+          "type": "include",
+          "name": "general",
+          "sub_name": "",
+          "sub_id": ""
+        }
+      ]
+    },
+    "1245083": {
+      "title": "Footer",
+      "doc_type": "footer",
+      "thumbnail": false,
+      "location": "footer",
+      "conditions": [
+        {
+          "type": "include",
+          "name": "general",
+          "sub_name": "",
+          "sub_id": ""
+        }
+      ]
+    },
+    "1245084": {
+      "title": "Single Post",
+      "doc_type": "single-post",
+      "thumbnail": false,
+      "location": "single",
+      "conditions": [
+        {
+          "type": "include",
+          "name": "singular",
+          "sub_name": "post",
+          "sub_id": ""
+        }
+      ]
+    },
+    "1245086": {
+      "title": "404",
+      "doc_type": "error-404",
+      "thumbnail": false,
+      "location": "single",
+      "conditions": [
+        {
+          "type": "include",
+          "name": "singular",
+          "sub_name": "not_found404",
+          "sub_id": ""
+        }
+      ]
+    }
+  },
+  "taxonomies": {
+    "post": [
+      "category"
+    ],
+    "nav_menu_item": [
+      "nav_menu"
+    ],
+    "product": [
+      "product_type",
+      "product_visibility",
+      "product_cat"
+    ]
+  },
+  "content": {
+    "post": [],
+    "page": {
+      "1245076": {
+        "title": "Tickets",
+        "excerpt": "",
+        "doc_type": "wp-page",
+        "thumbnail": false,
+        "url": "https://qdpenjjp.elementor.cloud/tickets/",
+        "terms": []
+      },
+      "1245078": {
+        "title": "Schedule",
+        "excerpt": "",
+        "doc_type": "wp-page",
+        "thumbnail": false,
+        "url": "https://qdpenjjp.elementor.cloud/schedule/",
+        "terms": []
+      },
+      "1245079": {
+        "title": "Contact",
+        "excerpt": "",
+        "doc_type": "wp-page",
+        "thumbnail": false,
+        "url": "https://qdpenjjp.elementor.cloud/contact/",
+        "terms": []
+      },
+      "1245080": {
+        "title": "Movies",
+        "excerpt": "",
+        "doc_type": "wp-page",
+        "thumbnail": false,
+        "url": "https://qdpenjjp.elementor.cloud/movies/",
+        "terms": []
+      },
+      "1245081": {
+        "title": "Home",
+        "excerpt": "",
+        "doc_type": "wp-page",
+        "thumbnail": false,
+        "url": "https://qdpenjjp.elementor.cloud/",
+        "terms": [],
+        "show_on_front": true
+      },
+      "1245088": {
+        "title": "Promotions",
+        "excerpt": "",
+        "doc_type": "wp-page",
+        "thumbnail": false,
+        "url": "https://qdpenjjp.elementor.cloud/promotions/",
+        "terms": []
+      }
+    },
+    "e-floating-buttons": []
+  },
+  "wp-content": {
+    "post": [
+      "1245082",
+      "1245085",
+      "1245087"
+    ],
+    "page": [],
+    "nav_menu_item": [
+      "122090",
+      "138337",
+      "138338",
+      "138339",
+      "810749",
+      "810750",
+      "810751",
+      "892317",
+      "1092641",
+      "1245102",
+      "1245103",
+      "1245104",
+      "1245105",
+      "1245106",
+      "1245109",
+      "1245110",
+      "1245111",
+      "1245112",
+      "1245113"
+    ],
+    "product": []
+  },
+  "custom-post-type-title": {
+    "product": {
+      "name": "product",
+      "label": "Products"
+    }
+  }
+}
